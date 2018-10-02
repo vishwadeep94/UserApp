@@ -261,7 +261,7 @@ public class CreateAccountActivity extends AppCompatActivity {
                 && !TextUtils.isEmpty(country_selected) && !TextUtils.isEmpty(phone_number)) {
 
 
-            mprogessdialog.setMessage("Creating Accounting....");
+            mprogessdialog.setMessage("Creating Account....");
             mprogessdialog.show();
 
             mAuth.createUserWithEmailAndPassword(em, pwd).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
